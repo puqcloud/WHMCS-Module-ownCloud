@@ -1,3 +1,11 @@
+# WHMCS-Module-ownCloud
+
+The module is used to create customer accounts on the previously prepared ownCloud server.
+Thanks to the module, the company is able to offer public cloud services to its customers.
+The module enables the definition of multiple public cloud packages. The module creates a customer account according to the selected package. The client can have many independent accounts in the cloud.
+
+For the correct operation of the module, a pre-prepared ownCloud installation is required (the module does not assist in the installation of the ownCloud server and assumes that such installation is ready for operation.)
+
 ## ownCloud module **[WHMCS](https://puqcloud.com/link.php?id=77)**
 
 #####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
