@@ -50,7 +50,7 @@ The module is used to create customer accounts on the previously prepared ownClo
 
 - - - - - -
 
->WHMCS minimal version: 8 +
+>WHMCS minimal version: 9 +
 
 <img width="842" height="776" alt="image" src="https://github.com/user-attachments/assets/369af5e6-fcbe-40f2-aae1-5f57524d3f3b" />
 
