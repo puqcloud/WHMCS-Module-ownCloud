@@ -52,8 +52,8 @@ The module is used to create customer accounts on the previously prepared ownClo
 
 >WHMCS minimal version: 8 +
 
-![image](https://github.com/PUQ-sp-z-o-o/WHMCS-Module-ownCloud/assets/81689153/ed935312-bb2f-4be7-8d00-a73fe6f8b2c5)
+<img width="842" height="776" alt="image" src="https://github.com/user-attachments/assets/369af5e6-fcbe-40f2-aae1-5f57524d3f3b" />
 
-[![image-1677933046824.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677933046824.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677933046824.png)
+<img width="1133" height="765" alt="image" src="https://github.com/user-attachments/assets/aacc8d20-6a35-4cc2-aacc-9d312db90fe9" />
 
-[![image-1677933571641.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677933571641.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677933571641.png)
+<img width="1665" height="844" alt="image" src="https://github.com/user-attachments/assets/e2cad6c9-0fe7-4067-9d92-b7dbbaa4b02b" />
