@@ -8,7 +8,7 @@ For the correct operation of the module, a pre-prepared ownCloud installation is
 
 ## ownCloud module **[WHMCS](https://puqcloud.com/link.php?id=77)**
 
-#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
+##### [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
 
 # Description
  
@@ -18,9 +18,9 @@ Thanks to the module, the company is able to offer public cloud services to its 
 
 The module is used to create customer accounts on the previously prepared ownCloud server. The module enables You to define multiple public cloud packages and sell them at different prices. The module creates a customer account according to the selected package. The client can have many independent accounts in the cloud.
 
->For the correct operation of the module, a pre-prepared ownCloud installation is required (the module does not assist in the installation of the ownCloud server and assumes that such installation is ready for operation through API.) Module use ownCloud API to manage clients account.</p>
+>For the correct operation of the module, a pre-prepared ownCloud installation is required (the module does not assist in the installation of the ownCloud server and assumes that such installation is ready for operation through API.) Module use ownCloud API to manage clients account.
 
->We have prepared a detailed installation manual for the module, including all the steps needed to implement the module, including the preparation of the ownCloud server, including all installation steps such as NGNIX, PHP, ownCloud, SSL certificates etc.</p>
+>We have prepared a detailed installation manual for the module, including all the steps needed to implement the module, including the preparation of the ownCloud server, including all installation steps such as NGNIX, PHP, ownCloud, SSL certificates etc.
 
 ### Functions:
 
