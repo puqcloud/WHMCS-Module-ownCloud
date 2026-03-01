@@ -1,59 +1,63 @@
-# WHMCS-Module-ownCloud
-
-The module is used to create customer accounts on the previously prepared ownCloud server.
-Thanks to the module, the company is able to offer public cloud services to its customers.
-The module enables the definition of multiple public cloud packages. The module creates a customer account according to the selected package. The client can have many independent accounts in the cloud.
-
-For the correct operation of the module, a pre-prepared ownCloud installation is required (the module does not assist in the installation of the ownCloud server and assumes that such installation is ready for operation.)
-
-## ownCloud module **[WHMCS](https://puqcloud.com/link.php?id=77)**
-
-##### [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
-
 # Description
- 
-### Preface
 
-Thanks to the module, the company is able to offer public cloud services to its customers based on ownCloud accounts.
+### ownCloud module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
 
-The module is used to create customer accounts on the previously prepared ownCloud server. The module enables You to define multiple public cloud packages and sell them at different prices. The module creates a customer account according to the selected package. The client can have many independent accounts in the cloud.
+## ownCloud WHMCS module
 
->For the correct operation of the module, a pre-prepared ownCloud installation is required (the module does not assist in the installation of the ownCloud server and assumes that such installation is ready for operation through API.) Module use ownCloud API to manage clients account.
+The ownCloud WHMCS module is a provisioning module that integrates WHMCS with ownCloud servers, enabling cloud service providers to offer ownCloud-based accounts to their customers. The module automates the full lifecycle of user account management through API integration with ownCloud.
 
->We have prepared a detailed installation manual for the module, including all the steps needed to implement the module, including the preparation of the ownCloud server, including all installation steps such as NGNIX, PHP, ownCloud, SSL certificates etc.
+---
 
-### Functions:
+## Main features
 
-- Auto create and deploy client account
-- The module uses only the API to manage the accounts
-- Module supports multilingualism **(Arabic, Azerbaijani, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Farsi, French, German, Hebrew, Hungarian, Italian, Macedonian, Norwegian, Polish, Romanian, Russian, Spanish, Swedish, Turkish, Ukrainian)**
-- The module shows the current and history of data usage by the user
-- The module notifies the user about exceeding the data limit
-- Link to instructions for setting up the service in the client area.
+- **Automatic account provisioning** — auto create and deploy client ownCloud accounts upon order activation
+- **Account lifecycle management** — create, suspend, unsuspend, terminate, change password, and change package (upgrade/downgrade) for ownCloud user accounts
+- **Disk usage monitoring** — track and display disk usage statistics with historical data and configurable retention period
+- **Email notifications** — automatic notifications when disk usage exceeds configurable thresholds, sent via WHMCS cron
+- **Multi-language support** — 25 languages including Arabic, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Estonian, Farsi, French, German, Hebrew, Hungarian, Italian, Macedonian, Norwegian, Polish, Romanian, Russian, Spanish, Swedish, Turkish, and Ukrainian
+- **Client area integration** — customers can view server address, credentials with copy-to-clipboard, disk usage pie chart, usage statistics, and access user manual
+- **Admin area tools** — administrators can view license status, API connection status, user details (username, enabled status, group, email), and disk usage with visual progress bar
+- **Configurable username/password rules** — flexible rules for automatic username and password generation using macros ({client_id}, {service_id}, {random_digit_x}, {random_letter_x}, date/time macros)
+- **Group management** — assign ownCloud groups to users on the server side, automatic group creation
+- **Unlimited quota support** — set disk size to 0 for unlimited storage
+- **License verification** — built-in license system with online/offline verification and admin alerts
 
-### Available options in the admin panel:
+---
 
-- Suspend users
-- Terminate users
-- Unsuspend users
-- Change users password
-- Change Package
-- API connection status
-- ownCloud Disk status
+## System requirements
 
-### Available options in the client panel:
+| Requirement | Minimum |
+|-------------|---------|
+| WHMCS | 9.x or higher |
+| PHP | 8.2 or higher |
+| ownCloud | 10.x or higher |
+| ionCube Loader | v13 or newer (v14, v15) |
 
-- Change the ownCloud user password
-- ownCloud Disk status
-- Using disk space statistics
+---
 
+## Links
 
-- - - - - -
+- **Product page:** [https://puqcloud.com/whmcs-module-owncloud.php](https://puqcloud.com/whmcs-module-owncloud.php)
+- **Documentation:** [https://doc.puq.info/books/owncloud-whmcs-module](https://doc.puq.info/books/owncloud-whmcs-module)
+- **Support:** [https://puqcloud.com/submitticket.php](https://puqcloud.com/submitticket.php?step=2&deptid=1)
+- **Community:** [https://community.puqcloud.com/](https://community.puqcloud.com/)
 
->WHMCS minimal version: 9 +
+---
 
-<img width="842" height="776" alt="image" src="https://github.com/user-attachments/assets/369af5e6-fcbe-40f2-aae1-5f57524d3f3b" />
+## Screenshots
 
-<img width="1133" height="765" alt="image" src="https://github.com/user-attachments/assets/aacc8d20-6a35-4cc2-aacc-9d312db90fe9" />
+### Client area — Home screen
 
-<img width="1665" height="844" alt="image" src="https://github.com/user-attachments/assets/e2cad6c9-0fe7-4067-9d92-b7dbbaa4b02b" />
+![Client area home screen](img/01-description-client-area.png)
+*01-description-client-area.png*
+
+### Client area — Disk statistics
+
+![Disk statistics](img/02-description-disk-stats.png)
+*02-description-disk-stats.png*
+
+### Admin area — Product information
+
+![Admin area product information](img/03-description-admin-area.png)
+*03-description-admin-area.png*
